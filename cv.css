@@ -1,0 +1,133 @@
+/* <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,600&family=Tinos:wght@400;700&display=swap" rel="stylesheet"> */
+
+*{
+    box-sizing: border-box;
+}
+:root{ 
+    font-family: Calibri
+    
+}
+
+/* General Tags and Typography */
+p, ul, li{
+    font-size: 1.35rem;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+main{
+    color: rgb(114, 110, 110);
+}
+h2{
+    color: black;
+    margin-top: 2rem;
+    margin-left: -0.2em;
+}
+h4{
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 0;
+}
+strong{
+    color: green;
+}
+
+/* Header Section */
+header{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 2em 0 2em 0;
+    margin-bottom: 2em;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 300;
+    color: rgb(114, 110, 110);
+    margin-bottom: 0;
+}
+h1 strong{
+    color: black;
+}
+
+.list-container{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#list-address{
+    color: rgb(114, 110, 110);
+}
+
+#list1{
+    list-style: none;
+    margin-right: 25px;
+}
+#contacts-links{
+    color: green !important;
+}
+ul strong{
+    display: flex;
+}
+#list3{
+    list-style: none;
+    margin: 0 15px 0 0;
+}
+
+#list4{
+    margin: 0 15px;
+}
+
+
+/* Main */
+#intro{
+    margin-bottom: 2.5em; 
+}
+.main-container{
+    width: 75%;
+    margin: 2.2em auto 0 auto;
+}
+.border-container{
+    border-left: 3px dashed rgb(168, 164, 164);
+    padding-left: 2rem;
+}
+.normal{
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+h4{
+    font-family: Calibri;
+    font-weight: 700;
+    
+}
+
+.list-flex{
+    display: flex;
+    padding-left: 1.1rem;
+    
+    /* margin: 0; */
+}
+.list-below{
+    margin-right: 2 rem;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+}
+
+
+/* Change Bullet Color */
+.list-below li::before {
+    content: "\2022";
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+
+
